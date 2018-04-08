@@ -19,10 +19,7 @@ Put near-realtime picture of Earth as your Wallpaper
 ![Picture 4. oh-my-earth Wallpaper Example 4](https://github.com/ujnzxw/picture/blob/master/oh-my-earth-example-4.png)
 ![Picture 2. oh-my-earth Wallpaper Example 2](https://github.com/ujnzxw/picture/blob/master/oh-my-earth-example-2.png)
 
-##Supported Desktop Environments
-
-Tested
------
+## Spport Desktop Environments 
 * Unity 7
 * Mate 1.8.1
 * Pantheon

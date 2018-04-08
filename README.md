@@ -57,7 +57,8 @@ cd ~/oh-my-earth/
 vi config.py
 
 # Install
-sudo bash install.sh
+chomd +x install.sh
+./install.sh
 ```
 
 ## Uninstallation

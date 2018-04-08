@@ -13,7 +13,6 @@ Put near-realtime picture of Earth as your Wallpaper
 * The installation procedure is simplify
 * More easier to customization by yourself
 
-
 ## Example
 
 ![Picture 1. oh-my-earth Wallpaper Example 3](https://github.com/ujnzxw/picture/blob/master/oh-my-earth-example-3.png)
@@ -30,12 +29,8 @@ Tested
 * LXDE
 * OS X
 
-Not Tested
-----------
-* GNOME 3
-* KDE
-
 ## Configuration
+
 You can configure the level of detail, by modifying the script. You can set the global variable `level` to `4`, `8`, `16`, or `20` to increase the quality (and thus the file size as well). Please keep in mind that it will also take more time to download the tiles.
 
 
@@ -46,6 +41,7 @@ On xfce4, you can set which displays you want to change the background of using 
     xfconf-query --channel xfce4-desktop --list | grep last-image
 
 ### Nitrogen
+
   If you use nitrogen for setting your wallpaper, you have to enter this in your `~/.config/nitrogen/bg-saved.cfg`.
 
     [:0.0]
@@ -53,24 +49,11 @@ On xfce4, you can set which displays you want to change the background of using 
     mode=4
     bgcolor=#000000
 
-
-
 ## Installation
 
-
-#### Pre-install
-[Please install PIL package first](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140767171357714f87a053a824ffd811d98a83b58ec13000)
-
-Others:
-
-sudo easy_install image
-sudo easy_install pytz
-sudo easy_install tzlocal
-sudo easy_install appdirs
-
-```
+```shell
 cd ~  <OR OTHER PATH YOU WANT>
-git clone https://github.com/ujnzxw/oh-my-earth.git
+git clone https://github.com/vviLab/oh-my-earth.git
 
 # Configure
 cd ~/oh-my-earth/
@@ -78,20 +61,11 @@ vi config.py
 
 # Install
 sudo bash install.sh
-
-# Test whether it's working
-oh-my-earth
-
-# Set oh-my-earth to be called periodically
-
-- Set up a cronjob
-crontab -e
-
-- Add the line:
- */10 * * * * <INSTALLATION_PATH>
 ```
+
 ## Uninstallation
-```
+
+```shell
 # Remove the cronjob
 crontab -e
 # Remove the line

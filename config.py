@@ -10,7 +10,7 @@ Global settings
 '''
 
 ''' set display model: random, earth, momentumdash'''
-display_model = "momentumdash"
+display_model = "earth"
 
 ''' get the output file '''
 # earth output file
